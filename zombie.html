@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<title>植物大战僵尸</title> 
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/common.css">	
+</head>
+<body>
+	<button id='gameStart' style="margin: 0 50%; width: 200px;display:none">开始游戏</button>
+	<div id='viewport' class="viewport">
+		<div id="bg" class="bg"></div>
+		<div id="zombie"></div>
+		<div id='cardList'></div>
+		<div id='shooterList'></div>
+		<div id="zombieList"></div>
+
+	</div>
+	
+</body>
+<script type="text/javascript" src="js/gameStartAnimation.js"></script>
+<script type="text/javascript" src="js/sunShineAnimation.js"></script>
+<script type="text/javascript" src="js/shooter.js"></script>
+
+
+<script type="text/javascript">
+	document.oncontextmenu = function(){
+		return false;
+	}
+	var start = document.getElementById('gameStart');
+	start.onclick = function(){
+		shootZombie();
+		sunShineAnimation();
+		start.onclick = null;
+	}
+
+	
+	startAnimation();
+	console.log(window.innerWidth +'--'+window.innerHeight)
+</script>
+</html>
+
+
+

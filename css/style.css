@@ -1,0 +1,25 @@
+.viewport{width: 900px;height: 600px;background: black;border:5px outset;position: absolute;margin: 70px 300px;overflow: hidden;}
+.bg{width: 1400px;height: 600px;background: url(../imgs/imgs_01/interface/bg.jpg) -115px ;z-index: 0;}
+#zombie{width: 335px;height: 600px;position: absolute;top: 0;left: 1065px;z-index: :1;}
+
+.onezb{position: absolute;left: 0px;top: 0}
+.zbshadow{position: absolute;left: 100px;top:124px;}
+.carpet{width:0;height: 117px;position: absolute;top:241px;left: 138px;background: url(../imgs/imgs_01/interface/carpet.png); }
+.sodroll{width: 68px;height: 141px;position: absolute;top: 209px;left: 138px}
+.sodrollcap{width: 73px;height: 71px;position: absolute;top:320px;left: 138px}
+
+
+.scoreboard{width: 123px;height: 34px;position: absolute;top:5px;left: 150px;background: url(../imgs/imgs_02/interface/SunBack.png);}
+#score{width: 75px;height: 30px;position: absolute;top:4px;left: 36px;text-align: center;font:25px bold;}
+.sunshine{width: 78px;height: 78px;position: absolute;top:-78px;background: url(../imgs/imgs_02/interface/Sun.gif);cursor: pointer;z-index: 2000}
+
+#shooterCard{width:100px;height: 60px;position: absolute;top:0;left: 0;cursor: pointer;display: none;z-index: 1}
+#shooterCardG{width:100px;height: 60px;position: absolute;top:0;left: 0;cursor: pointer;}
+.shooterGif{width:71px;height:71px;position: absolute;;cursor: pointer;left:0;top: 0;z-index: 99}
+.shooterShadow{width:71px;height:71px;position: absolute;cursor: pointer;z-index: 98;}
+
+.end{position: absolute;background-color: gray;opacity:0.4;z-index: 1000}
+.word{width: 200px;height:100px;position: relative;margin: 200px auto;background-color: white;z-index: 1001;
+	  text-align: center;border:1px solid black;border-radius: 5px}
+	  
+.restart{cursor: pointer;position: absolute;top:50px;left:30%;z-index: 1001}
